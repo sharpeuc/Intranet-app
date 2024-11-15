@@ -1,0 +1,125 @@
+/* Contenedor principal de la vista de Gestión de Crédito */
+.gestion-credito-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.gestion-credito-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #667eea;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.credito-details {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.credito-details:hover {
+    background-color: #e8e9f1;
+}
+
+.credito-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.credito-renta,
+.credito-situacion-laboral,
+.credito-advertencia {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #555;
+}
+
+.credito-banco-tasa {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/**** Botón de actualizar ****/
+.update-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #667eea;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+    background-color: #4b5bc7;
+}
+
+/**** Botón de eliminar ****/
+.delete-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+/**** Botón de volver ****/
+.back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #667eea;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.back-button:hover {
+    background-color: #4b5bc7;
+}
+
+/**** Campo de entrada ****/
+.credito-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+/**** Mensaje de advertencia ****/
+.warning-message {
+    color: #e74c3c;
+    font-weight: bold;
+}

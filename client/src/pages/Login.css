@@ -1,0 +1,60 @@
+/* Centrar el contenedor principal */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Caja de login estilizada */
+.login-box {
+    background: white;
+    padding: 40px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Estilo para el logo */
+.login-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilo de los campos de entrada */
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Estilo del botón */
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #667eea;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-box button:hover {
+    background-color: #764ba2;
+}

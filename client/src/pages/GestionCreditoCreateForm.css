@@ -1,0 +1,96 @@
+.credito-create-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.credito-create-form h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #5c67f2;
+    margin-bottom: 30px;
+}
+
+.credito-create-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.credito-create-form input,
+.credito-create-form select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.credito-create-form input:focus,
+.credito-create-form select:focus {
+    outline: none;
+    border-color: #5c67f2;
+    box-shadow: 0 0 5px rgba(92, 103, 242, 0.3);
+}
+
+.credito-create-form button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #5c67f2;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.credito-create-form button:hover {
+    background-color: #4b5bc7;
+    transform: translateY(-2px);
+}
+
+.back-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+/* Añadir estilos para el select */
+.credito-create-form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 30px;
+    background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"><path fill="%23ccc" d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
+    background-color: #fff;
+    background-size: 18px;
+}
+
+/* Estilo para el contenedor del select */
+.credito-create-form .form-group {
+    text-align: left;
+}
+
+.credito-create-form .form-group label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+    display: block;
+}

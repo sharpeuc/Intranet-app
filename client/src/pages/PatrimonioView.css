@@ -1,0 +1,93 @@
+.patrimonio-container {
+    padding: 40px;
+    background: linear-gradient(135deg, #f0f0f5, #ffffff);
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    transition: all 0.3s ease;
+}
+
+.patrimonio-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.patrimonio-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #3b5bfd;
+    border-bottom: 3px solid #3b5bfd;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.patrimonio-details {
+    font-size: 20px;
+    line-height: 1.8;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.patrimonio-value {
+    font-size: 26px;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #eaf1ff;
+    border-radius: 8px;
+}
+
+.patrimonio-amortizacion {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9ff;
+    border-radius: 8px;
+}
+
+.indicadores-diarios p {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+    padding: 8px;
+    background: #f1f1ff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.back-button {
+    padding: 12px 25px;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(135deg, #5c67f2, #3b5bfd);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-button:hover {
+    background: linear-gradient(135deg, #4b5bc7, #2e47a0);
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}

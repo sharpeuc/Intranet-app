@@ -1,0 +1,117 @@
+/* Contenedor principal del dashboard */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar estilizado */
+.dashboard-sidebar {
+    width: 250px;
+    background: #667eea;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.dashboard-sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard-sidebar nav ul li {
+    margin: 15px 0;
+}
+
+.dashboard-sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.dashboard-sidebar nav ul li a:hover {
+    color: #a5b4fc;
+}
+
+/* Estilo del logo en el sidebar */
+.dashboard-logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Botón de Cerrar Sesión */
+.logout-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: center;
+}
+
+.logout-button:hover {
+    background-color: #c0392b;
+}
+
+/* Contenido principal del dashboard */
+.dashboard-content {
+    flex: 1;
+    padding: 20px;
+    background: #f3f4f6;
+    text-align: center;
+    position: relative;
+}
+
+/* Estilo del logo en el contenido principal */
+.dashboard-content-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Contenedor del carrusel */
+.carousel-container {
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+/* Estilo del carrusel */
+.dashboard-carousel .carousel .slide {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-image {
+    height: 300px; /* Ajustar la altura para que se vean más pequeñas pero manteniendo calidad */
+    width: auto; /* Mantener el aspecto de la imagen */
+    object-fit: contain; /* Mantener la calidad sin distorsionar la imagen */
+    border-radius: 10px;
+    filter: brightness(1.1) contrast(1.1); /* Mejorar la calidad visual con brillo y contraste */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Añadir un sombreado para destacar la imagen */
+}
+
+/* Leyenda del carrusel debajo de cada imagen */
+.carousel-caption {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500; /* Hacer que la leyenda sea un poco más destacada */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para resaltar el texto */
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 85%;
+    margin: 10px auto;
+}
